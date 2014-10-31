@@ -135,11 +135,4 @@ function done() {
     return true;
 }
 
-function stop() {
-    "use strict";
-    var i;
-    for (i = 0; i < pieces.length; i++) {
-        pieces[i].innerHTML = "";
-    }
-}
     
